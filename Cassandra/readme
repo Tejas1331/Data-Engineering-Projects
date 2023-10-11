@@ -11,7 +11,7 @@ Scalability: The pipeline can handle large volumes of data and is highly scalabl
 
 
 Technologies Used
-Apache Kafka
+Confluent Kafka
 Confluent Cloud
 Cassandra
 CSV data ingestion
