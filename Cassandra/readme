@@ -1,91 +1,18 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <title>Data Pipeline with Kafka and Cassandra Integration</title>
-</head>
+# Data Pipeline with Kafka and Cassandra Integration Project Overview
 
-<body>
+This data pipeline is designed to seamlessly transfer data from a CSV file to a Kafka cluster hosted on Confluent Cloud. The pipeline incorporates producer and consumer components, utilizing Apache Kafka for real-time data streaming and processing, and ultimately storing the processed data in a Cassandra database.
 
-<h1>Data Pipeline with Kafka and Cassandra Integration</h1>
+Key Features
+CSV to Kafka: Data is ingested from a CSV file and sent to a Kafka cluster using a custom producer code.
+Real-time Processing: Data is consumed from Kafka and subjected to real-time processing using a consumer code.
+Data Storage: Processed data is stored in a Cassandra database, enabling efficient and scalable data management.
+Scalability: The pipeline can handle large volumes of data and is highly scalable to meet changing data demands.
 
-<h2>Project Overview</h2>
 
-<p>This data pipeline is designed to seamlessly transfer data from a CSV file to a Kafka cluster hosted on Confluent Cloud. The pipeline incorporates producer and consumer components, utilizing Apache Kafka for real-time data streaming and processing, and ultimately storing the processed data in a Cassandra database.</p>
-
-<h2>Key Features</h2>
-
-<ul>
-    <li><strong>CSV to Kafka:</strong> Data is ingested from a CSV file and sent to a Kafka cluster using a custom producer code.</li>
-    <li><strong>Real-time Processing:</strong> Data is consumed from Kafka and subjected to real-time processing using a consumer code.</li>
-    <li><strong>Data Storage:</strong> Processed data is stored in a Cassandra database, enabling efficient and scalable data management.</li>
-    <li><strong>Scalability:</strong> The pipeline can handle large volumes of data and is highly scalable to meet changing data demands.</li>
-</ul>
-
-<h2>Technologies Used</h2>
-
-<ul>
-    <li>Apache Kafka</li>
-    <li>Confluent Cloud</li>
-    <li>Cassandra</li>
-    <li>CSV data ingestion</li>
-    <li>Python (for producer and consumer components)</li>
-</ul>
-
-<h2>Getting Started</h2>
-
-<p>Follow the instructions below to set up and run the data pipeline:</p>
-
-<h3>Prerequisites</h3>
-
-<ul>
-    <li><a href="https://www.confluent.io/confluent-cloud/">Confluent Cloud Account</a></li>
-    <li><a href="https://cassandra.apache.org/">Cassandra Database</a></li>
-    <li>Python 3.x</li>
-</ul>
-
-<h3>Installation</h3>
-
-<ol>
-    <li>Clone this repository to your local machine.</li>
-</ol>
-
-<pre>
-<code>git clone https://github.com/yourusername/your-repo.git</code>
-</pre>
-
-<ol start="2">
-    <li>Set up the required Python dependencies using pip.</li>
-</ol>
-
-<pre>
-<code>pip install -r requirements.txt</code>
-</pre>
-
-<ol start="3">
-    <li>Configure your Confluent Cloud and Cassandra connection details in the configuration files.</li>
-</ol>
-
-<h3>Usage</h3>
-
-<ol>
-    <li>Execute the producer script to start ingesting data from the CSV file into the Kafka cluster:</li>
-</ol>
-
-<pre>
-<code>python producer.py</code>
-</pre>
-
-<ol start="2">
-    <li>Run the consumer script to process the data from Kafka and store it in Cassandra:</li>
-</ol>
-
-<pre>
-<code>python consumer.py</code>
-</pre>
-
-<p>This data pipeline is a powerful tool for managing and processing data in real-time, making it an ideal solution for various data-driven applications.</p>
-
-</body>
-
-</html>
+Technologies Used
+Apache Kafka
+Confluent Cloud
+Cassandra
+CSV data ingestion
+Python (for producer and consumer components)
