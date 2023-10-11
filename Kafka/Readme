@@ -9,5 +9,5 @@ Consumer Script for Kafka to JSON Data Transformation
 
 Technologies Used
 SQL Database (MySQL)
-Apache Kafka
+Confluent Kafka
 Python
