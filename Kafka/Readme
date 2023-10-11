@@ -1,1 +1,3 @@
-
+The codes are self explainatory.
+The codes have been executed by creating a kafka cluster on Confluent Kafka.
+You can run 5 consumer codes simultaneously for my configuration as I had created 5 partitions in the cluster, you can create even more depending upon your need.
