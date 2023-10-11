@@ -1,7 +1,7 @@
 
 # Data Pipeline with Kafka and Cassandra Integration Project Overview
 
-This data pipeline is designed to seamlessly transfer data from a CSV file to a Kafka cluster hosted on Confluent Cloud. The pipeline incorporates producer and consumer components, utilizing Apache Kafka for real-time data streaming and processing, and ultimately storing the processed data in a Cassandra database.
+This data pipeline is designed to seamlessly transfer data from a CSV file to a Kafka cluster hosted on Confluent Cloud. The pipeline incorporates producer and consumer components, utilizing Confluent Kafka for real-time data streaming and processing, and ultimately storing the processed data in a Cassandra database.
 
 Key Features
 CSV to Kafka: Data is ingested from a CSV file and sent to a Kafka cluster using a custom producer code.
