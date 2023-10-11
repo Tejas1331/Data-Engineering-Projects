@@ -1,3 +1,13 @@
-The codes are self explainatory.
-The codes have been executed by creating a kafka cluster on Confluent Kafka.
-You can run 5 consumer codes simultaneously for my configuration as I had created 5 partitions in the cluster, you can create even more depending upon your need.
+Data Pipeline: SQL to Kafka to JSON Project Overview
+
+This project implements a data pipeline that starts with data generation and insertion into an SQL database. A producer script is then used to read the data from the SQL database and send it to a Kafka cluster. Subsequently, a consumer script processes the data from Kafka, transforms it into JSON format, and stores it in a JSON file.
+
+Key Features
+Data Generation and SQL Insertion
+Producer Script for SQL to Kafka Data Transfer
+Consumer Script for Kafka to JSON Data Transformation
+
+Technologies Used
+SQL Database (MySQL)
+Apache Kafka
+Python
