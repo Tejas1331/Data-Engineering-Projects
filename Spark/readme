@@ -1,1 +1,22 @@
+Data Pipeline with Kafka, Spark, and Hive Integration
 
+Project Overview
+
+This data pipeline is designed to efficiently process data originating from a CSV file. The pipeline follows a sequence of steps, starting with the ingestion of data from a CSV file into a Kafka cluster using a custom producer code. Next, a Spark consumer, implemented within a Google Cloud (GCP) Jupyter Notebook, subscribes to the Kafka topic and enhances the data by adding two new columns. The processed data is eventually stored in the Hive warehouse in HDFS file format using Hive Query Language (HQL).
+
+Key Features
+
+CSV to Kafka: Data is ingested from a CSV file and sent to a Kafka cluster using a custom producer code.
+Real-time Processing: A Spark consumer, hosted in a GCP Jupyter Notebook, subscribes to Kafka and enriches the data with two new columns.
+Hive Data Storage: Processed data is stored in the Hive warehouse, which leverages HDFS file format for efficient data storage.
+
+Technologies Used
+
+Confluent Kafka
+Apache Spark
+Google Cloud Platform (GCP)
+Jupyter Notebook
+Hive
+Hive Query Language (HQL)
+HDFS
+CSV data ingestion
